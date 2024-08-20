@@ -24,14 +24,14 @@ body {
 }
 
 .logo img {
-  max-height: 50px; /* Adjust the height as needed */
-  margin-right: 10px; /* Space between the image and text */
+  max-height: 50px; 
+  margin-right: 10px; 
 }
 
 .logo span {
   font-size: 1.5em;
   font-weight: bold;
-  color: #290635; /* Ensure the text color matches the design */
+  color: #290635; 
 }
 .navbar .nav-links {
   list-style: none;
@@ -100,29 +100,32 @@ body {
 
 .services-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px; 
+    padding: 20px;
 }
 
-.service-item {
-  max-width: 22%;
+.service-box {
+  max-width: 30%;
   margin-bottom: 30px;
+  text-align: center;
 }
 
-.service-item img {
+.service-box img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-}
+ }
 
-.service-item h3 {
+.service-box h3 {
   font-size: 1.5em;
   margin-top: 15px;
   color: #127e20;
 }
 
-.service-item p {
-  font-size: 1em;
+.service-box p {
+  font-size: 16px;
   margin-top: 10px;
   color: #1a13de;
 }
