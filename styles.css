@@ -8,6 +8,50 @@ body {
   color: #060808;
 }
 
+.exciting-heading {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #FFD700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px 0 #2C3E50,
+               -1px -1px 0 #FFFFFF,
+                5px 5px 0 #3498DB;
+  animation: pulse 2s infinite;
+}
+
+/* Pulsating Animation */
+
+@keyframes pulse {
+
+  0% {
+    transform: scale(1);
+    text-shadow: 3px 3px 0 #2C3E50,
+               -1px -1px 0 #FFFFFF,
+                5px 5px 0 #3498DB;
+   }
+
+  50% {
+    transform: scale(1.05);
+    text-shadow: 4px 4px 0 #2C3E50,
+               -2px -2px 0 #FFFFFF,
+                6px 6px 0 #3498DB;
+   }
+
+  100% {
+    transform: scale(1);
+    text-shadow: 3px 3px 0 #2C3E50,
+               -1px -1px 0 #FFFFFF,
+                5px 5px 0 #3498DB;
+   }
+}
+  
+
 /* Navbar */
 .navbar {
   background-color: #78787b;
